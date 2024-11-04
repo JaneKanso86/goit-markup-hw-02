@@ -17,9 +17,7 @@ button {
     cursor: pointer;
 }
 
-.link: :active {
 
-}
 /* header */
 
 .header {
@@ -67,8 +65,7 @@ font-weight: 700;
 }
 
 .nav-list {
-    display: flex;
-    justify-content: flex-start;
+color: #2e2f42;
     }
 .header-info {
     font-weight: 500;
@@ -82,23 +79,26 @@ font-weight: 700;
     font-style: normal;
 }
 
+.nav-link,
 .contacts-link {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
 }
-.nav-link,
-.contacts-link {
-color: #2E2F42;
+.nav-link:active ,
+.nav-link:hover ,
+.nav-link:focus {
+color: #404bbf;
 }
 
-.nav-link:hover,
-.nav-link:focus,
-.contacts-link:hover,
+
+.contacts-link:active ,
+.contacts-link:hover ,
 .contacts-link:focus {
-   
-    color: #404bbf;
+   color: #404bbf;
 }
 
 .heroimage {
@@ -110,19 +110,18 @@ background-color: #2e2f42;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
+    text-align: center;
 }
 .button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    display: flex;
-    justify-content: flex-start;
     background-color: #4d5ae5;
     color: #fff;
 }
-.button-accent: hover,
-.button-accent: focus {
-   color: #404bbf;
+.button-accent:hover,
+.button-accent:focus {
+    background-color: #404BBF;
 }
 /* sections1 */
 .team {
