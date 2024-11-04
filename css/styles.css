@@ -13,9 +13,10 @@ body {
 }
 .header-nav {
 background-color: #fff;
+color: #2E2F42;
 }
 .logo {
-        font-family:"Raleway", sans-serif;
+        
         display: flex;
         align-items: center;
         justify-content: flex-start;
@@ -27,6 +28,7 @@ background-color: #fff;
     margin-bottom: 16px;
 }
 .nav-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -58,7 +60,7 @@ font-weight: 700;
 .header-info {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
