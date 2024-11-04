@@ -7,17 +7,19 @@ body {
 
 }
 /* header */
+
+.header {
+    color: #2E2F42;
+}
 .header-nav {
 background-color: #fff;
 }
 .logo {
+        font-family:"Raleway", sans-serif;
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        flex-direction: row;
-        gap: 0px;
 }
-
 .header-logo {
     margin-right: 76px;
 }
@@ -27,7 +29,7 @@ background-color: #fff;
 .nav-logo {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1,17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -35,7 +37,7 @@ background-color: #fff;
 .dark-logo {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1,17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
@@ -43,7 +45,7 @@ background-color: #fff;
 .light-logo {
 font-weight: 700;
     font-size: 18px;
-    line-height: 1, 17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
@@ -51,11 +53,8 @@ font-weight: 700;
 
 .nav-list {
     display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 40px;
-}
+    }
 .header-info {
     font-weight: 500;
     font-size: 16px;
@@ -79,6 +78,7 @@ font-weight: 700;
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
+    color: #2E2F42;
     color: #404bbf;
 }
 
@@ -88,21 +88,24 @@ background-color: #2e2f42;
 .heroimage-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1,07;
+    line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
 }
 .button {
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
-     gap: 10px;
-    border-radius: 4px;
-    padding: 16px 32px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
+    color: #fff;
+}
+.button:hover,
+.button:focus {
+    color: #fff;
+color: #404bbf;
 }
 /* sections1 */
 .team {
@@ -111,15 +114,13 @@ background-color: #2e2f42;
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,11;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
 }
 .team-list {
-padding: 0px 0px 32px 0px;
-box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background-color: #fff;
+ background-color: #fff;
 }
 .team-item {
 margin-bottom: 72px;
@@ -127,15 +128,14 @@ margin-bottom: 72px;
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
 }
 .team-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
@@ -143,50 +143,50 @@ margin-bottom: 72px;
 /* sections2 */
 
 .benefits-title {
+    text-transform: capitalize;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
 
 }
 
 .benefits-list {
     list-style-type: none;
-    padding: 0;
-}
+    }
 
 .benefits-item {
     margin-bottom: 15px;
+    background-color: #fff;
 }
 
 .benefits-subtitle {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-
+    line-height: 1.2;
 }
 
 .benefits-text {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 
 }
 /* sections3 */
 .portfolio-title {
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,11;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
 }
 .portfolio-list {
 list-style-type: none;
-    padding: 0;
 }
 .portfolio-item {
 margin-bottom: 72px;
@@ -195,7 +195,7 @@ margin-bottom: 72px;
 font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2%;
+    line-height: 1.2%;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -203,7 +203,7 @@ font-family: "Roboto", sans-serif;
 font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -211,11 +211,14 @@ font-family: "Roboto", sans-serif;
 .footer {
     background: #2e2f42;
 }
+.footer-logo {
+    line-height: 1.17;
+}
 .footer-text {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
